@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Hind+Siliguri:wght@300;400;500;600;700&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap"
+        rel="stylesheet">
+    <title>Registracija</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <h1>Registracija</h1>
+        <p id="error-message"></p>
+        <form id="form">
+            <div>
+                <input type="text" name="name" id="name-input" placeholder="Vardas">
+            </div>
+            <div>
+                <input type="email" name="email" id="email-input" placeholder="El. paštas">
+            </div>
+            <div>
+                <input type="text" name="age" id="age-input" placeholder="Amžius">
+            </div>
+            <div>
+                <input type="text" name="phone" id="phone-input" placeholder="Telefono numeris">
+            </div>
+            <div>
+                <input type="password" name="password" id="password-input" placeholder="Slaptažodis">
+                <!-- (8 simbolių, įtraukiant bent 1 didžiąją raidę, skaičių ir simbolį) -->
+            </div>
+            <div>
+                <input type="password" name="repeat-password" id="repeat-password-input"
+                    placeholder="Pakartoti slaptažodį">
+            </div>
+            <button type="submit">Registruotis</button>
+        </form>
+    </div>
+</body>
+
+</html>
